@@ -1,5 +1,4 @@
-# Introduction to Kustomize
-What is Kustomize?
-Kustomize is a standalone tool to customise the creation of Kubernetes objects through a file called kustomization.yaml. It introduces a template-free way to customize application configuration. It lets you customize an entire Kubernetes application without touching the actual YAML files. All the customization can be specified and can also be overridden in a special file called kustomization.yaml file. It is natively built into kubectl and follows a purely declarative approach to configuration customization. Without any further due, let's get into the hands-on section of Kustomize.
+# Deploying Applications in Kubernetes Using Flux
+Flux is an Open and extensible continuous delivery solution for Kubernetes. Flux is a GitOps tool for Kubernetes that synchronizes the state of manifests in a Git repository to what is running in a cluster. So what is GitOps? Is it a new tool in the market? GitOps provides a way for developers to manage operational workflow for using Kubernetes using Git. It is all about using a version-controlled system for the deployment of applications in Kubernetes. So Developers can directly push the code into production from the version-controlled system like Git. Moreover, any changes made can be easily tracked and reverted in case of any chaos. There are multiple tools in the market to run GitOps. Today in this article we would be experimenting with a tool called Flux.
 
-Full article can be found here https://pavan1999-kumar.medium.com/introduction-to-kustomize-97f990dc2f44
+Full Article can be found here https://medium.com/swlh/deploying-applications-in-kubernetes-using-flux-a9d171b11917
