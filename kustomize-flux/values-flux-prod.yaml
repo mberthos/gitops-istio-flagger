@@ -1,0 +1,8 @@
+git:
+  pollInterval: 1m
+  url: ssh://git@github.com/mberthos/k8s-flux.git
+  branch: master
+  path: kustomize-flux/prod
+syncGarbageCollection:
+  enabled: true
+manifestGeneration: true

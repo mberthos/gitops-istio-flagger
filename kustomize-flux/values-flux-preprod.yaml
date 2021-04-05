@@ -1,0 +1,12 @@
+git:
+  pollInterval: 1m
+  url: ssh://git@github.com/mberthos/k8s-flux.git
+  branch: master
+  path: kustomize-flux/preprod
+syncGarbageCollection:
+  enabled: true
+manifestGeneration: true
+additionalArgs:
+  -  --git-sync-tag=flux-sync-preprod
+allowedNamespaces:
+  - preprod
