@@ -13,4 +13,4 @@ spec:
     path: helm-charts/fluxcd-demo
     ref: fluxcd-demo
   values:
-    replicaCount: 5
+    replicaCount: 5.
